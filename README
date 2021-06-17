@@ -1,5 +1,0 @@
-# Markov writer
-A Markov chain text generator in (POSIX) AWK.
-
-# usage
-$ ./wakati.sh < <japanese_text_file> | ./markov_writer.awk [var=val...]
