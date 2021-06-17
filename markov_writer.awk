@@ -29,11 +29,10 @@ BEGIN{
 	NUM_PAR = 1 # how many times this program generates paragraph.
 	NUM_SEN = 5 # one paragraph contains NUM_SEN sentences.
 	MAX_WORD = 1000
+	DOS = "DOS" #delimiter of sentence.
+	OFS = "" # field (word) separater.
 	# debug
 	DEBUG=0
-	# for japanese
-	DOS = "。" #delimiter of sentence.
-	OFS = "" # field (word) separater.
 	# init
 	head = 0
 	initCount = 0
